@@ -1,9 +1,7 @@
 const express = require('express')
 const app = express();
 
-function rootCall(req, res) {
-    res.send('Thank You!')
-}
+const rootCall = (req, res) => res.send('Thank You!')
 
 app.get('/', )
 
